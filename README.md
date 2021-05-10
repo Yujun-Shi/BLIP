@@ -18,7 +18,7 @@ Yujun Shi (***LV Lab***), Li Yuan (***LV Lab***), Yunpeng Chen (***YITU Technolo
 
 ### Graphical Illustration
 
-![graphical_illustration](/home/wangkaixin/project/BLIP/pictures/graphical_illustration.png)
+![graphical_illustration](./pictures/graphical_illustration.png)
 
 We consider a simple scenario with ***one single parameter***  quantized to 10 bits to illustrate our method. $\theta_{t}$ denotes the parameter after learning on task $1$ to $t$, and $\theta_{0}$ is a randomly initialized value before training on any task. $IG_{t}$ denotes information gain on $\theta$ after learning the task $t$. Bit representation of $\theta$ after learning each task is shown below. From the higher bit positions to lower ones is more significant bits to less significant ones. Frozen bits are filled with color and the rest bits are free bits. After learning each task, the information gain is calculated and then $\lceil IG_{t} \rceil$ bits are to be frozen in the bit representation. By repeating this process, the information on previous tasks can be preserved, enabling continual learning for neural networks.
 
@@ -40,11 +40,9 @@ As can be seen, for EWC, the agent's performance on previous task degraded drast
 
 ***EWC***
 
-<img align="left" width="140" height="140" src="/home/wangkaixin/project/BLIP/pictures/ewc_task_0_0.gif">
+<img align="left" width="140" height="140" src="./pictures/ewc_task_0_0.gif">
 
-<img align="left" width="140" height="140" src="/home/wangkaixin/project/BLIP/pictures/ewc_task_1_0.gif"><img align="left" width="140" height="140" src="/home/wangkaixin/project/BLIP/pictures/ewc_task_1_1.gif">
-
-
+<img align="left" width="140" height="140" src="./pictures/ewc_task_1_0.gif"><img align="left" width="140" height="140" src="./pictures/ewc_task_1_1.gif">
 
 
 
@@ -52,7 +50,9 @@ As can be seen, for EWC, the agent's performance on previous task degraded drast
 
 
 
-<img align="left" width="140" height="140" src="/home/wangkaixin/project/BLIP/pictures/ewc_task_2_0.gif"><img align="left" width="140" height="140" src="/home/wangkaixin/project/BLIP/pictures/ewc_task_2_1.gif"><img align="left" width="140" height="140" src="/home/wangkaixin/project/BLIP/pictures/ewc_task_2_2.gif">
+
+
+<img align="left" width="140" height="140" src="./pictures/ewc_task_2_0.gif"><img align="left" width="140" height="140" src="./pictures/ewc_task_2_1.gif"><img align="left" width="140" height="140" src="./pictures/ewc_task_2_2.gif">
 
 
 
@@ -66,11 +66,9 @@ As can be seen, for EWC, the agent's performance on previous task degraded drast
 
 ***BLIP***
 
-<img align="left" width="140" height="140" src="/home/wangkaixin/project/BLIP/pictures/blip_task_0_0.gif">
+<img align="left" width="140" height="140" src="./pictures/blip_task_0_0.gif">
 
-<img align="left" width="140" height="140" src="/home/wangkaixin/project/BLIP/pictures/blip_task_1_0.gif"><img align="left" width="140" height="140" src="/home/wangkaixin/project/BLIP/pictures/blip_task_1_1.gif">
-
-
+<img align="left" width="140" height="140" src="./pictures/blip_task_1_0.gif"><img align="left" width="140" height="140" src="./pictures/blip_task_1_1.gif">
 
 
 
@@ -78,7 +76,9 @@ As can be seen, for EWC, the agent's performance on previous task degraded drast
 
 
 
-<img align="left" width="140" height="140" src="/home/wangkaixin/project/BLIP/pictures/blip_task_2_0.gif"><img align="left" width="140" height="140" src="/home/wangkaixin/project/BLIP/pictures/blip_task_2_1.gif"><img align="left" width="140" height="140" src="/home/wangkaixin/project/BLIP/pictures/blip_task_2_2.gif">
+
+
+<img align="left" width="140" height="140" src="./pictures/blip_task_2_0.gif"><img align="left" width="140" height="140" src="./pictures/blip_task_2_1.gif"><img align="left" width="140" height="140" src="./pictures/blip_task_2_2.gif">
 
 
 
