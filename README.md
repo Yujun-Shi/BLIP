@@ -40,11 +40,9 @@ As can be seen, for EWC, the agent's performance on previous task degraded drast
 
 ***EWC***
 
-<img align="left" width="140" height="140" src="./pictures/ewc_task_0_0.gif">
+<img align="left" width="140" height="140" src="./pictures/ewc_task_0_0.gif"><br/>
 
-<img align="left" width="140" height="140" src="./pictures/ewc_task_1_0.gif"><img align="left" width="140" height="140" src="./pictures/ewc_task_1_1.gif">
-
-
+<img align="left" width="140" height="140" src="./pictures/ewc_task_1_0.gif"><img align="left" width="140" height="140" src="./pictures/ewc_task_1_1.gif"><br/>
 
 
 
@@ -52,7 +50,9 @@ As can be seen, for EWC, the agent's performance on previous task degraded drast
 
 
 
-<img align="left" width="140" height="140" src="./pictures/ewc_task_2_0.gif"><img align="left" width="140" height="140" src="./pictures/ewc_task_2_1.gif"><img align="left" width="140" height="140" src="./pictures/ewc_task_2_2.gif">
+
+
+<img align="left" width="140" height="140" src="./pictures/ewc_task_2_0.gif"><img align="left" width="140" height="140" src="./pictures/ewc_task_2_1.gif"><img align="left" width="140" height="140" src="./pictures/ewc_task_2_2.gif"><br/>
 
 
 
@@ -66,11 +66,9 @@ As can be seen, for EWC, the agent's performance on previous task degraded drast
 
 ***BLIP***
 
-<img align="left" width="140" height="140" src="./pictures/blip_task_0_0.gif">
+<img align="left" width="140" height="140" src="./pictures/blip_task_0_0.gif"><br/>
 
-<img align="left" width="140" height="140" src="./pictures/blip_task_1_0.gif"><img align="left" width="140" height="140" src="./pictures/blip_task_1_1.gif">
-
-
+<img align="left" width="140" height="140" src="./pictures/blip_task_1_0.gif"><img align="left" width="140" height="140" src="./pictures/blip_task_1_1.gif"><br/>
 
 
 
@@ -78,7 +76,9 @@ As can be seen, for EWC, the agent's performance on previous task degraded drast
 
 
 
-<img align="left" width="140" height="140" src="./pictures/blip_task_2_0.gif"><img align="left" width="140" height="140" src="./pictures/blip_task_2_1.gif"><img align="left" width="140" height="140" src="./pictures/blip_task_2_2.gif">
+
+
+<img align="left" width="140" height="140" src="./pictures/blip_task_2_0.gif"><img align="left" width="140" height="140" src="./pictures/blip_task_2_1.gif"><img align="left" width="140" height="140" src="./pictures/blip_task_2_2.gif"><br/>
 
 
 
