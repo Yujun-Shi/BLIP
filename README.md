@@ -40,55 +40,19 @@ As can be seen, for EWC, the agent's performance on previous task degraded drast
 
 ***EWC***
 
-<img align="left" width="140" height="140" src="./pictures/ewc_task_0_0.gif"><br/>
+<img align="left" width="140" height="140" src="./pictures/ewc_task_0_0.gif"><br/><br/><br/><br/><br/><br/>
 
-<img align="left" width="140" height="140" src="./pictures/ewc_task_1_0.gif"><img align="left" width="140" height="140" src="./pictures/ewc_task_1_1.gif"><br/>
-
-
-
-
-
-
-
-
-
-<img align="left" width="140" height="140" src="./pictures/ewc_task_2_0.gif"><img align="left" width="140" height="140" src="./pictures/ewc_task_2_1.gif"><img align="left" width="140" height="140" src="./pictures/ewc_task_2_2.gif"><br/>
-
-
-
-
-
-
-
-
+<img align="left" width="140" height="140" src="./pictures/ewc_task_1_0.gif"><img align="left" width="140" height="140" src="./pictures/ewc_task_1_1.gif"><br/><br/><br/><br/><br/><br/>
+<img align="left" width="140" height="140" src="./pictures/ewc_task_2_0.gif"><img align="left" width="140" height="140" src="./pictures/ewc_task_2_1.gif"><img align="left" width="140" height="140" src="./pictures/ewc_task_2_2.gif"><br/><br/><br/><br/><br/><br/>
 
 
 
 ***BLIP***
 
-<img align="left" width="140" height="140" src="./pictures/blip_task_0_0.gif"><br/>
+<img align="left" width="140" height="140" src="./pictures/blip_task_0_0.gif"><br/><br/><br/><br/><br/><br/>
 
-<img align="left" width="140" height="140" src="./pictures/blip_task_1_0.gif"><img align="left" width="140" height="140" src="./pictures/blip_task_1_1.gif"><br/>
-
-
-
-
-
-
-
-
-
-<img align="left" width="140" height="140" src="./pictures/blip_task_2_0.gif"><img align="left" width="140" height="140" src="./pictures/blip_task_2_1.gif"><img align="left" width="140" height="140" src="./pictures/blip_task_2_2.gif"><br/>
-
-
-
-
-
-
-
-
-
-
+<img align="left" width="140" height="140" src="./pictures/blip_task_1_0.gif"><img align="left" width="140" height="140" src="./pictures/blip_task_1_1.gif"><br/><br/><br/><br/><br/><br/>
+<img align="left" width="140" height="140" src="./pictures/blip_task_2_0.gif"><img align="left" width="140" height="140" src="./pictures/blip_task_2_1.gif"><img align="left" width="140" height="140" src="./pictures/blip_task_2_2.gif"><br/><br/><br/><br/><br/><br/>
 
 
 
