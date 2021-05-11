@@ -32,7 +32,7 @@ Here, we render and compare agents trained by EWC and BLIP under different envir
 
 Below is visualization of sequentially learning the first 3 Atari games in our setups (i.e., kung fu master -- boxing -- james bond).
 
-**The i-th row, j-th column GIF illustrates how well does the agent perform in the j-th task after learning the i-th task.**
+**The i-th row, j-th column GIF illustrates how well does the agent perform in the j-th task after learning the first i tasks.**
 
 As can be seen, for EWC, the agent's performance on previous task degraded drastically after learning new tasks, while agent trained with BLIP can still perform quite well. (This phenomenon is most significant for task 1.)
 
