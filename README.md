@@ -146,7 +146,7 @@ To run Baseline methods with AlexNet, use:
 python run_baselines.py --lr 0.01 --approach <baseline-method> --momentum 0.0 --mul 1 --sbatch 32 --seed 0 --ntasks 20 --arch alexnet
 ```
 
-where <baseline-method> should be replaced by the name of baseline methods (e.g., sgd, sgd-frozen, lwf, imm-mode, ewc).
+where \<baseline-method\> should be replaced by the name of baseline methods (e.g., sgd, sgd-frozen, lwf, imm-mode, ewc).
 
 
 
