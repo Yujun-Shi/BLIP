@@ -34,7 +34,7 @@ class Linear_Q(nn.Linear):
         super(Linear_Q, self).__init__(in_features, out_features, bias)
         self.max_bit = max_bit
 
-        self.bound = 20.0*math.sqrt(1/in_features)
+        self.bound = 6.0*math.sqrt(1/in_features)
         # dealing each layer's prior separately
         self.F_prior = F_prior*in_features
 
@@ -42,6 +42,7 @@ class Linear_Q(nn.Linear):
         self.register_buffer('bit_alloc_w', torch.zeros_like(self.weight, dtype=torch.int64))
         self.register_buffer('Fisher_w', torch.zeros_like(self.weight))
         self.register_buffer('Fisher_w_old', self.F_prior*torch.ones_like(self.weight))
+        self.weight.data.normal_(0.0, math.sqrt(1/in_features))
         self.weight.data.clamp_(-self.bound, self.bound)
         if self.bias is not None:
             self.register_buffer('prev_bias', torch.zeros_like(self.bias))
@@ -121,7 +122,7 @@ class Conv2d_Q(nn.Conv2d):
         super(Conv2d_Q, self).__init__(in_channels, out_channels, kernel_size, stride, 
             padding, dilation, groups, bias)
         self.max_bit = max_bit
-        self.bound = 20.0*math.sqrt(1.0/(in_channels*kernel_size*kernel_size))
+        self.bound = 6.0*math.sqrt(1.0/(in_channels*kernel_size*kernel_size))
         # dealing each layer's prior separately
         self.F_prior = F_prior*in_channels*kernel_size*kernel_size
 
@@ -129,6 +130,7 @@ class Conv2d_Q(nn.Conv2d):
         self.register_buffer('bit_alloc_w', torch.zeros_like(self.weight, dtype=torch.int64))
         self.register_buffer('Fisher_w', torch.zeros_like(self.weight))
         self.register_buffer('Fisher_w_old', self.F_prior*torch.ones_like(self.weight))
+        self.weight.data.normal_(0.0, math.sqrt(1.0/(in_channels*kernel_size*kernel_size)))
         self.weight.data.clamp_(-self.bound, self.bound)
         if self.bias is not None:
             self.register_buffer('prev_bias', torch.zeros_like(self.bias))
