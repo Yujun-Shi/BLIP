@@ -70,7 +70,7 @@ If you find our repo/paper helpful, please consider citing our work :)
 
 
 
-
+<br/><br/><br/>
 
 ### Image Classifications (Besides mini-ImageNet)
 
@@ -103,14 +103,14 @@ python run_blip.py --experiment mixture5 --lr 0.05 --sbatch 32 --F-prior 5e-17 -
 All datasets will be automatically downloaded and processed under ***ImageClassification/data***
 
 
-
+<br/><br/><br/>
 ### Image Classification (mini-ImageNet)
 
 Under the folder ***miniImageNetClassification/src***:
 
 The following two steps are needed to run the experiment:
 
-##### Step 1: Prepare Data
+* ##### Step 1: Prepare Data
 
 First, [download](https://github.com/Yujun-Shi/BLIP/releases/download/initial/MI_raw.zip) the zipped file and extract it under the folder ***miniImageNetClassification/src/data***
 
@@ -124,7 +124,7 @@ After executing the file, two files named "train.pkl" and "test.pkl" will be gen
 
 
 
-##### Step 2: run shell command
+* ##### Step 2: run shell command
 
 Under the folder ***miniImageNetClassification/src***:
 
@@ -149,7 +149,7 @@ python run_baselines.py --lr 0.01 --approach <baseline-method> --momentum 0.0 --
 where \<baseline-method\> should be replaced by the name of baseline methods (e.g., sgd, sgd-frozen, lwf, imm-mode, ewc).
 
 
-
+<br/><br/><br/>
 ### RL (sequence of 6 Atari games)
 
 Under the folder ***RL/src***
@@ -173,7 +173,7 @@ To run plain fine-tuning, use:
 ```
 
 
-
+<br/><br/><br/>
 ## Contact
 
 Yujun Shi (shi.yujun@u.nus.edu)
