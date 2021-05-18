@@ -59,7 +59,14 @@ As can be seen, for EWC, the agent's performance on previous task degraded drast
 ### Citation
 
 If you find our repo/paper helpful, please consider citing our work :)
-
+```
+@article{shi2021continual,
+  title={Continual Learning via Bit-Level Information Preserving},
+  author={Shi, Yujun and Yuan, Li and Chen, Yunpeng and Feng, Jiashi},
+  journal={arXiv preprint arXiv:2105.04444},
+  year={2021}
+}
+```
 
 
 ### Prerequisites
