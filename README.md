@@ -1,4 +1,4 @@
-# Continual Learning via Bit-Level Information Preserving (CVPR2021) [ArXiv](https://arxiv.org/pdf/2105.04444.pdf)
+# (CVPR2021) Continual Learning via Bit-Level Information Preserving [ArXiv](https://arxiv.org/pdf/2105.04444.pdf)
 
 This repo contains the official Implementation of the CVPR2021 paper: Continual Learning via Bit-Level Information Preserving.
 
