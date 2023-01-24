@@ -216,12 +216,6 @@ class MLPBase(NNBase):
             init_(nn.Linear(num_inputs, hidden_size)), nn.Tanh(),
             init_(nn.Linear(hidden_size, hidden_size)), nn.Tanh())
 
-        self.critic = nn.Sequential(
-            init_(nn.Linear(num_inputs, hidden_size)), nn.Tanh(),
-            init_(nn.Linear(hidden_size, hidden_size)), nn.Tanh())
-
-        # self.critic_linear = init_(nn.Linear(hidden_size, 1))
-
         self.train()
 
     def forward(self, inputs, rnn_hxs, masks):
@@ -230,7 +224,6 @@ class MLPBase(NNBase):
         if self.is_recurrent:
             x, rnn_hxs = self._forward_gru(x, rnn_hxs, masks)
 
-        hidden_critic = self.critic(x)
         hidden_actor = self.actor(x)
 
         # return self.critic_linear(hidden_critic), hidden_actor, rnn_hxs
@@ -345,10 +338,6 @@ class QMLPBase(NNBase):
             Linear_Q(num_inputs, hidden_size, F_prior=F_prior), nn.Tanh(),
             Linear_Q(hidden_size, hidden_size, F_prior=F_prior), nn.Tanh())
 
-        self.critic = nn.Sequential(
-            Linear_Q(num_inputs, hidden_size, F_prior=F_prior), nn.Tanh(),
-            Linear_Q(hidden_size, hidden_size, F_prior=F_prior), nn.Tanh())
-
         self.train()
 
     def forward(self, inputs, rnn_hxs, masks):
@@ -357,7 +346,6 @@ class QMLPBase(NNBase):
         if self.is_recurrent:
             x, rnn_hxs = self._forward_gru(x, rnn_hxs, masks)
 
-        hidden_critic = self.critic(x)
         hidden_actor = self.actor(x)
 
         return hidden_actor, rnn_hxs
